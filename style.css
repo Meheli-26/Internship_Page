@@ -1,5 +1,11 @@
 body{
     background-color: rgb(229, 229, 64);
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
 h1{
     text-align: center;
@@ -20,6 +26,7 @@ h1{
     }  
 
 .triangle-down {
+    
         position: fixed;
         text-align: center;
         width: 0%;
@@ -28,7 +35,7 @@ h1{
         border-left: 90px solid transparent;
         border-right: 90px solid transparent;
         border-top: 50px solid  rgb(229, 229, 64);
-        left: 50%;
+        left: 45%;
 
 
              
